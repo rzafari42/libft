@@ -1,1 +1,1 @@
-# Essential Fonctions in C
+# Essential Functions in C
