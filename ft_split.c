@@ -6,7 +6,7 @@
 /*   By: rzafari <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/16 18:45:18 by rzafari           #+#    #+#             */
-/*   Updated: 2019/10/21 00:46:29 by rzafari          ###   ########.fr       */
+/*   Updated: 2020/05/26 17:34:36 by rzafari          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,9 +56,6 @@ static	int				ft_calcnbwords(char const *s, char c)
 
 static	char			**freefunc(char **s)
 {
-	int	i;
-
-	i = 0;
 	while (s)
 	{
 		free(s);
